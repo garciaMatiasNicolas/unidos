@@ -34,7 +34,7 @@ const Footer = () => {
 
       <div className='text-center p-4' style={{ backgroundColor: 'rgba(0, 0, 0, 0.05)' }}>
         © 2023 Desarrollado por
-        <a className='text-reset fw-bold' href='https://mdbootstrap.com/'>
+        <a className='text-reset fw-bold' href='https://matiasgarcia.vercel.app/'>
           : Matias Garcia
         </a>
       </div>

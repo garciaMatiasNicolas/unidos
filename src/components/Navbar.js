@@ -15,11 +15,11 @@ const Navbar = () => {
             </button>
         </div>
         <div className="collapse navbar-collapse" style={{width:'auto',}} id="navbarNavAltMarkup">
-            <div className="navbar-nav navLinks w-25">
-                <Link to='/nosotros' className="text-decoration-none" ><span className="font-family hover">NOSOTROS</span></Link>
-                <Link to='/eventos' className="text-decoration-none" ><span className="font-family hover">EVENTOS</span></Link>
-                <Link to='/contacto' className="text-decoration-none" ><span className="font-family hover">CONTACTO</span></Link>
-                <a href="/#faqs" className="text-decoration-none" ><span  className="font-family hover">FAQs</span></a>
+            <div className="navbar-nav navLinks w-auto menu">
+                <Link to='/nosotros' className="text-decoration-none" ><span className="font-family ref">NOSOTROS</span></Link>
+                <Link to='/eventos' className="text-decoration-none" ><span className="font-family ref">EVENTOS</span></Link>
+                <Link to='/contacto' className="text-decoration-none" ><span className="font-family ref">CONTACTO</span></Link>
+                <button style={{width:'8rem'}} className='font-family App-btn2'>Dona aqui</button>
             </div>
         </div>
     </nav>
