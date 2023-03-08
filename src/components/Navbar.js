@@ -19,7 +19,7 @@ const Navbar = () => {
                 <Link to='/nosotros' className="text-decoration-none" ><span className="font-family ref">NOSOTROS</span></Link>
                 <Link to='/eventos' className="text-decoration-none" ><span className="font-family ref">EVENTOS</span></Link>
                 <Link to='/contacto' className="text-decoration-none" ><span className="font-family ref">CONTACTO</span></Link>
-                <button style={{width:'8rem'}} className='font-family App-btn2'>Dona aqui</button>
+                <button style={{width:'8rem'}} className='font-family App-btn2'>Dona aquí</button>
             </div>
         </div>
     </nav>

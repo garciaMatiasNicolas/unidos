@@ -1,4 +1,6 @@
-
+import image1 from '../../assets/unidos-history-2.jpg'
+import image2 from '../../assets/unidos-events-1.jpg'
+import image3 from '../../assets/unidos-events-2.jpg'
 
 const EventsCards = () => {
   return (
@@ -10,21 +12,21 @@ const EventsCards = () => {
         
         <div className="d-flex flex-wrap justify-content-center align-items-center gap-5 w-100 px-1">
             <div className="card" style={{width:'23rem'}}>
-                <img src="https://cronicaglobal.elespanol.com/uploads/s1/15/12/11/64/nin-os-discapacidad-caixa-barc-a.jpeg" className="card-img-top" alt="..."/>
+                <img src={image1} className="card-img-top w-100" style={{maxHeight:"12.8rem"}} alt="..."/>
                 <div className="card-body">
                     <h2 className="font-family fs-3">Card title</h2>
                     <p className="font-family text-black">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                 </div>
             </div>
             <div className="card" style={{width:'23rem'}}>
-                <img src="https://cronicaglobal.elespanol.com/uploads/s1/15/12/11/64/nin-os-discapacidad-caixa-barc-a.jpeg" className="card-img-top" alt="..."/>
+                <img src={image2} style={{maxHeight:"12.8rem"}} className="card-img-top w-100" alt="..."/>
                 <div className="card-body">
                     <h2 className="font-family fs-3">Card title</h2>
                     <p className="font-family text-black">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                 </div>
             </div>
             <div className="card" style={{width:'23rem'}}>
-                <img src="https://cronicaglobal.elespanol.com/uploads/s1/15/12/11/64/nin-os-discapacidad-caixa-barc-a.jpeg" className="card-img-top" alt="..."/>
+                <img src={image3} className="card-img-top w-100" style={{maxHeight:"12.8rem"}} alt="..."/>
                 <div className="card-body">
                     <h2 className="font-family fs-3">Card title</h2>
                     <p className="font-family text-black">Some quick example text to build on the card title and make up the bulk of the card's content.</p>

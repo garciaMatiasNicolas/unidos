@@ -10,7 +10,7 @@ const Contact = () => {
             <div>
                 <h2 className="font-family fs-1">Contactanos!</h2>
                 <div className="mt-3 ps-5">
-                    <h3 className='font-family fs-5 text-black'>Nuestro numero de WhatsApp</h3>
+                    <h3 className='font-family fs-5 text-black'>Nuestro número de WhatsApp</h3>
                     <div className="d-flex justify-content-start gap-2 w-100">
                         <span><i class="fab fa-whatsapp fa-2x"></i></span>
                         <p className="font-family fs-5 text-black">3518050172</p>

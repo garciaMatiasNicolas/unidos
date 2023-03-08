@@ -4,7 +4,7 @@ const Testimonials = () =>{
     return(
         <div style={{background:'#F3F4F5'}} className="p-5">
             <div className="d-flex justify-content-center align-items-center gap-1 flex-column mb-5">
-                <h3 className="font-family fs-6 text-center">¿Quieres conocer que opinan de nostros?</h3>
+                <h3 className="font-family fs-6 text-center">¿Quieres saber que opinan de nosotros?</h3>
                 <h3 className="font-family fs-1 text-center">Nuestros testimonios</h3>
             </div>
 

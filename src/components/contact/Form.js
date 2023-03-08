@@ -2,7 +2,7 @@ import React from 'react'
 
 const Form = () => {
   return (
-    <form className='w-50 mb-5 d-flex flex-column justify-content-center align-items-start gap-5'>
+    <form className=' mb-5 d-flex flex-column justify-content-center align-items-start gap-5'>
         <div className='w-100'>
             <input type='text' autoComplete='off' name='fullname' placeholder='Tu nombre completo...' className='w-100 font-family' />
         </div>

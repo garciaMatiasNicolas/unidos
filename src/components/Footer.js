@@ -8,7 +8,7 @@ const Footer = () => {
         <MDBContainer className='text-center text-md-start mt-5'>
           <MDBRow className='mt-3'>
             <MDBCol md='3' lg='4' xl='3' className='mx-auto mb-4'>
-              <h3 className='font-family fs-3 fw-bold mb-4'>UNIDOS POR LA ALEGRIA</h3>
+              <h3 className='font-family fs-3 fw-bold mb-4'>UNIDOS POR LA ALEGRÍA</h3>
               <p className='font-family fs-6'>Mucha gente pequena, en lugares pequenos, haciendo cosas pequenas, pueden cambiar el mundo..</p>
             </MDBCol>
 
@@ -32,10 +32,10 @@ const Footer = () => {
         </MDBContainer>
       </section>
 
-      <div className='text-center p-4' style={{ backgroundColor: 'rgba(0, 0, 0, 0.05)' }}>
-        © 2023 Desarrollado por
-        <a className='text-reset fw-bold' href='https://matiasgarcia.vercel.app/'>
-          : Matias Garcia
+      <div className='font-family text-center p-4' style={{ backgroundColor: 'rgba(0, 0, 0, 0.05)' }}>
+        © 2023 Desarrollado por:
+        <a className='font-family fw-bold' href='https://matiasgarcia.vercel.app/'>
+          Matias Garcia
         </a>
       </div>
     </MDBFooter>
