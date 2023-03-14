@@ -8,6 +8,7 @@ import image2 from '../assets/unidos-history-2.jpg';
 import image1 from '../assets/unidos-history-4.jpg';
 import image4 from '../assets/unidos-history-5.jpeg';
 import image5 from '../assets/unidos-history-6.jpg';
+import Navbar from '../components/Navbar';
 
 const data = {
   image: "https://www.fundacionmapfre.org/media/accion-social/proyectos/internacionales/venezuela/finalizados/alimentacion-discapacidad-1194x585-1.jpg",
@@ -28,12 +29,11 @@ const history = [
   },
 ]
 
-
-
 const AboutUs =  () => {
 
   return (
     <div className='d-flex flex-column'>
+      <Navbar/>
       <Header image={image5} title={data.title} text={data.text}/> 
       <Container1 image={image1} title={history[0].title} text={history[0].text}/>
       <Container2 image={image2} title={history[1].title} text={history[1].text}/>

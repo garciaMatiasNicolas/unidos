@@ -20,14 +20,18 @@ const Contact = () => {
                     <h3 className='font-family fs-5 text-black'>Siguenos en Instagram!</h3>
                     <div className="d-flex justify-content-start gap-2 w-100">
                         <span><i class="fab fa-instagram fa-2x"></i></span>
-                        <p className="font-family fs-5 text-black">@unidosporlaalegria</p>
+                        <a className='text-decoration-none' href='https://www.instagram.com/unidosporlaalegriaok/'>
+                            <p className="font-family fs-5 text-primary">@unidosporlaalegriaok</p>
+                        </a>
                     </div>
                 </div>
                 <div className="mt-3 ps-5">
                     <h3 className='font-family fs-5 text-black'>Nuestro Facebook</h3>
                     <div className="d-flex justify-content-start gap-2 w-100">
                         <span><i class="fab fa-facebook fa-2x"></i></span>
-                        <p className="font-family fs-5 text-black">@unidosporlaalegria</p>
+                        <a className='text-decoration-none' href='https://www.facebook.com/profile.php?id=100064631654612'>
+                        <p className="font-family fs-5 text-primary">@unidosporlaalegria</p>
+                        </a>
                     </div>
                 </div>
             </div>

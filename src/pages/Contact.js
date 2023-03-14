@@ -1,5 +1,6 @@
 import Form from "../components/contact/Form"
 import Header from "../components/contact/HeaderSections"
+import Navbar from "../components/Navbar"
 
 const data = {
   image: "https://pymstatic.com/120528/discapacidad-intelectual-psicologo.jpg",
@@ -11,6 +12,7 @@ const Contact = () => {
   
   return (
     <div>
+      <Navbar/>
       <Header image={data.image} title={data.title} text={data.text}/>
       <section className="d-flex justify-content-center align-items-center gap-5 flex-column">
         <div className="d-flex justify-content-center align-items-center gap-1 flex-column mb-5">

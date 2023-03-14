@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import image3 from '../../assets/unidos-carrousel-1.jpg';
+import image3 from '../../assets/unidos-gallery-1.jpeg';
 import image2 from '../../assets/unidos-carrousel-3.jpg';
 import image1 from '../../assets/unidos-carrousel-2.jpeg';
 
@@ -8,7 +8,6 @@ const MediaCarrousel = () => {
    
     <div className="carousel-inner w-100">
         
-
         <div className="carousel-item carrouselImages w-100" style={{background:`url(${image1})`}}>
           <div className="carrouselMedia px-2">
               <h2 className="text-white text-center font-title">Titulo 2</h2>

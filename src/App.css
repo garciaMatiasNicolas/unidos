@@ -35,6 +35,10 @@
     height: 800px;
 }
 
+.events{
+    width: 50%;
+}
+
 .menu {
     display: flex;
     justify-content: center;
@@ -167,6 +171,10 @@ nav{
     align-self: start;
 }
 
+.imgEvents{
+    max-width: 350px;
+}
+
 svg{
     position: absolute;
 }
@@ -175,6 +183,14 @@ svg{
     .sectionx2{
         position: relative;
         min-height: 950px;
+    }
+
+    .imgEvents{
+        max-width: none;
+    }
+
+    .events{
+        width: 100%;
     }
 }
 
