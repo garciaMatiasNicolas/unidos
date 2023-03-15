@@ -1,6 +1,6 @@
-import image1 from '../../assets/unidos-history-2.jpg'
+import image1 from '../../assets/unidos-cards-1.jfif'
 import image2 from '../../assets/unidos-events-1.jpg'
-import image3 from '../../assets/unidos-events-2.jpg'
+import image3 from '../../assets/unidos-history-5.jpeg'
 
 const EventsCards = () => {
   return (
@@ -14,22 +14,22 @@ const EventsCards = () => {
             <div className="card" style={{width:'23rem'}}>
                 <img src={image1} className="card-img-top w-100" style={{maxHeight:"12.8rem"}} alt="..."/>
                 <div className="card-body">
-                    <h2 className="font-family fs-3">Card title</h2>
-                    <p className="font-family text-black">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <h2 className="font-family fs-3">Barrileteada de unidos</h2>
+                    <p className="font-family text-black">Fuimos al parque Rivera Sur donde los chicos pudieron levantar vuelo con sus propios barriletes</p>
                 </div>
             </div>
             <div className="card" style={{width:'23rem'}}>
                 <img src={image2} style={{maxHeight:"12.8rem"}} className="card-img-top w-100" alt="..."/>
                 <div className="card-body">
-                    <h2 className="font-family fs-3">Card title</h2>
-                    <p className="font-family text-black">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <h2 className="font-family fs-3">Nuestra Obra de teatro</h2>
+                    <p className="font-family text-black">Ellos, protagonistas. Realizamos una obra de teatro en el teatro comunitario 25 de mayo con los villuqueros</p>
                 </div>
             </div>
             <div className="card" style={{width:'23rem'}}>
                 <img src={image3} className="card-img-top w-100" style={{maxHeight:"12.8rem"}} alt="..."/>
                 <div className="card-body">
-                    <h2 className="font-family fs-3">Card title</h2>
-                    <p className="font-family text-black">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <h2 className="font-family fs-3">Comedor Echeverria</h2>
+                    <p className="font-family text-black">Compartimos una tarde con el comedor comunitario de Echeverria realizando diversas actividades!</p>
                 </div>
             </div>
         </div>

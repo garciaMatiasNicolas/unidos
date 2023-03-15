@@ -9,7 +9,6 @@ const ContainerEvents = (props) => {
         <div className="w-auto">
             <img className='w-100 h-100 rounded imgEvents' src={props.image} alt=""/>
         </div>
-
         <div className="events d-flex flex-column justify-content-between align-items-start">
             <div>
                 <h2 className='font-family fs-1'>{props.title}</h2>
@@ -18,6 +17,7 @@ const ContainerEvents = (props) => {
 
             <span className='font family fs-6 text-primary'>{`Fecha: ${props.date}`}</span>
         </div>
+
     </div>
   )
 }

@@ -10,15 +10,15 @@ const MediaCarrousel = () => {
         
         <div className="carousel-item carrouselImages w-100" style={{background:`url(${image1})`}}>
           <div className="carrouselMedia px-2">
-              <h2 className="text-white text-center font-title">Titulo 2</h2>
-              <span className="text-white text-center font-span">Texto de noticia 2</span>
+              <h2 className="text-white text-center font-title">Nuestras actividades</h2>
+              <span className="text-white text-center font-span">Podes ver todas las actividades que realizamos en nuestra fundacion desde</span><Link to='/nosotros' className='font-span text-white fs-5'>Aqui</Link>
           </div>
         </div>
 
         <div className="carousel-item carrouselImages w-100" style={{background:`url(${image2})`}}>
           <div className="carrouselMedia px-2">
-              <h2 className="text-white text-center font-title">Titulo 3</h2>
-              <span className="text-white text-center font-span">Texto de noticia 3</span>
+              <h2 className="text-white text-center font-title">Proximos Eventos</h2>
+              <span className="text-white text-center font-span">Entra en nuestra seccion de <Link to='/eventos' className='font-span text-white fs-5'>Eventos</Link> y visualiza nuestros anteriores y proximos eventos!</span>
           </div>
         </div>
 
