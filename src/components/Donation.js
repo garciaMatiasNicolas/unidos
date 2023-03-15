@@ -9,7 +9,7 @@ const Donation = () => {
             <h3 className="font-family fs-1 text-center">Hace click aca!</h3>
         </div>
 
-        <button style={{width:'8rem'}} className='font-family App-btn2'>Dona aquí</button>
+        <button data-bs-toggle="modal" data-bs-target="#exampleModal" style={{width:'8rem'}} className='font-family App-btn2'>Dona aquí</button>
 
     </div>
   )

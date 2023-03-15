@@ -26,7 +26,7 @@ const Footer = () => {
             <h3 className='font-family fs-4 fw-bold mb-4'>CONTACTO</h3>
               <p className='font-family fs-6'><MDBIcon color='secondary' icon='home' className='me-2'/>Buenos Aires, Ezeiza 10012, ARG</p>
               <p className='font-family fs-6'><MDBIcon color='secondary' icon='envelope' className='me-3'/>unidosporlaalegria2021@gmail.com</p>
-              <p className='font-family fs-6'><MDBIcon color='secondary' icon='phone' className='me-3' /> 11 2450-6328</p>
+              <p className='font-family fs-6'><MDBIcon color='secondary' icon='phone' className='me-3' /> +54 9 11 2450-6328</p>
             </MDBCol>
           </MDBRow>
         </MDBContainer>

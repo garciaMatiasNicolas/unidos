@@ -12,14 +12,14 @@ const Contact = () => {
                 <div className="mt-3 ps-5">
                     <h3 className='font-family fs-5 text-black'>Nuestro número de WhatsApp</h3>
                     <div className="d-flex justify-content-start gap-2 w-100">
-                        <span><i class="fab fa-whatsapp fa-2x"></i></span>
-                        <p className="font-family fs-5 text-black">3518050172</p>
+                        <span><i className="fab fa-whatsapp fa-2x"></i></span>
+                        <a className='text-decoration-none' href='https://api.whatsapp.com/send/?phone=11 2450-6328'><p className="font-family fs-5 text-primary">+54 9 11 2450-6328</p></a>
                     </div>
                 </div>
                 <div className="mt-3 ps-5">
                     <h3 className='font-family fs-5 text-black'>Siguenos en Instagram!</h3>
                     <div className="d-flex justify-content-start gap-2 w-100">
-                        <span><i class="fab fa-instagram fa-2x"></i></span>
+                        <span><i className="fab fa-instagram fa-2x"></i></span>
                         <a className='text-decoration-none' href='https://www.instagram.com/unidosporlaalegriaok/'>
                             <p className="font-family fs-5 text-primary">@unidosporlaalegriaok</p>
                         </a>
@@ -28,7 +28,7 @@ const Contact = () => {
                 <div className="mt-3 ps-5">
                     <h3 className='font-family fs-5 text-black'>Nuestro Facebook</h3>
                     <div className="d-flex justify-content-start gap-2 w-100">
-                        <span><i class="fab fa-facebook fa-2x"></i></span>
+                        <span><i className="fab fa-facebook fa-2x"></i></span>
                         <a className='text-decoration-none' href='https://www.facebook.com/profile.php?id=100064631654612'>
                         <p className="font-family fs-5 text-primary">@unidosporlaalegria</p>
                         </a>

@@ -1,7 +1,10 @@
 import { MDBAccordion, MDBAccordionItem, MDBIcon } from 'mdb-react-ui-kit';
+import Modal from '../Modal.js';
 import { Link } from 'react-router-dom';
 
+
 const FAQs = () => {
+
   return (
     <section className="faqs p-5" id="colaboration">
 
@@ -10,7 +13,7 @@ const FAQs = () => {
             <h3 className="font-family fs-1 text-center">¿Como puedo colaborar?</h3>
         </div>
 
-        <MDBAccordion flush initialActive={1}>
+        <MDBAccordion flush initialActive={3}>
             <MDBAccordionItem collapseId={1} headerTitle={<><MDBIcon fas icon="question-circle" /> &nbsp; Donar desde tu empresa</>}>
             Para concretar nuestro objetivo
             buscamos consolidar vínculos con organizaciones
@@ -31,8 +34,9 @@ const FAQs = () => {
             ayudan a construir nuestra misión. Si querés sumarte, completá el formulario de <Link to='/contacto'>Contacto</Link> ¡Muchas gracias!
             </MDBAccordionItem>
             <MDBAccordionItem collapseId={3} headerTitle={<><MDBIcon fas icon="question-circle" /> &nbsp; Donaciones online</>}>
-            También puedes colaborar con nosotros de manera online dejándonos alguna donación para que nuestra fundación pueda seguir creciendo. Podrás ver nuestra información de CBU y Alias aquí.
+            También puedes colaborar con nosotros de manera online dejándonos alguna donación para que nuestra fundación pueda seguir creciendo. Podrás ver nuestra información de CBU y Alias <button className='border border-0 bg-white text-primary' data-bs-toggle="modal" data-bs-target="#exampleModal">aquí.</button>
             </MDBAccordionItem>
+            <Modal/>
     </MDBAccordion>
     </section>
   )
