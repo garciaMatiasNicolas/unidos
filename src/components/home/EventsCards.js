@@ -1,6 +1,6 @@
 import image1 from '../../assets/unidos-cards-1.jfif'
 import image2 from '../../assets/unidos-events-1.jpg'
-import image3 from '../../assets/unidos-history-5.jpeg'
+import image3 from '../../assets/unidos-carrousel-2.jpeg'
 
 const EventsCards = () => {
   return (
