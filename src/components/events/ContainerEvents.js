@@ -21,10 +21,10 @@ const ContainerEvents = (props) => {
 
         <Gallery images={props.images} id={props.id} title={props.title}/>        
 
-        <div className="events d-flex flex-column justify-content-between align-items-start">
+        <div className="events d-flex flex-column container-about">
             <div>
-                <h2 className='font-family fs-1'>{props.title}</h2>
-                <p className='font-family mt-3 ms-1'>{props.text}</p>
+                <h2 className='font-family fs-1 align'>{props.title}</h2>
+                <p className='font-family mt-3 ms-1 align'>{props.text}</p>
             </div>
 
             <span className='font family fs-6 text-primary'>{`Fecha: ${props.date}`}</span>

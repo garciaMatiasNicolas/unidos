@@ -179,6 +179,11 @@ svg{
     position: absolute;
 }
 
+.container-about{
+    justify-content: start;
+    align-items: start;
+}
+
 @media (max-width:825px){
     .sectionx2{
         position: relative;
@@ -235,5 +240,10 @@ svg{
 
     .link{
         align-self: center;
+    }
+
+    .container-about{
+        justify-content: center;
+        align-items: center;
     }
 }

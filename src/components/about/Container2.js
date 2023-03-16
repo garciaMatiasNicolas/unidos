@@ -9,7 +9,7 @@ const Container2 = (props) => {
             </div>
         </div>
 
-        <div className='d-flex flex-column justify-content-start align-items-start gap-3 col-6 col-lg-5 column'>
+        <div className='d-flex flex-column container-about gap-3 col-6 col-lg-5 column'>
             <h2 className='font-family fs-1 text-start fw-bold align'>{props.title}</h2>
             <p className='font-family align'>{props.text}</p>
         </div>
