@@ -4,7 +4,7 @@ import event1 from '../assets/unidos-history-1.jpg';
 import event2 from '../assets/unidos-history-4.jpg';
 import event3 from '../assets/unidos-gallery-1.jpeg';
 import event4 from '../assets/unidos-events-4.jpeg';
-import event5 from '../assets/unidos-cards-1.jfif'
+import event5 from '../assets/unidos-cards-1.jfif';
 import header from '../assets/unidos-colaboration-1.jpg';
 import Navbar from '../components/Navbar.js';
 

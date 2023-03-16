@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import image3 from '../../assets/unidos-gallery-1.jpeg';
+import image3 from '../../assets/unidos-carrousel-4.jpeg';
 import image2 from '../../assets/unidos-carrousel-3.jpg';
 import image1 from '../../assets/unidos-carrousel-2.jpeg';
 
@@ -11,14 +11,14 @@ const MediaCarrousel = () => {
         <div className="carousel-item carrouselImages w-100" style={{background:`url(${image1})`}}>
           <div className="carrouselMedia px-2">
               <h2 className="text-white text-center font-title">Nuestras actividades</h2>
-              <span className="text-white text-center font-span">Podes ver todas las actividades que realizamos en nuestra fundacion desde</span><Link to='/nosotros' className='font-span text-white fs-5'>Aqui</Link>
+              <span className="text-white text-center font-span">Podés ver todas las actividades que realizamos en nuestra fundación desde</span><Link to='/nosotros' className='font-span text-white fs-5'>Aquí</Link>
           </div>
         </div>
 
         <div className="carousel-item carrouselImages w-100" style={{background:`url(${image2})`}}>
           <div className="carrouselMedia px-2">
-              <h2 className="text-white text-center font-title">Proximos Eventos</h2>
-              <span className="text-white text-center font-span">Entra en nuestra seccion de <Link to='/eventos' className='font-span text-white fs-5'>Eventos</Link> y visualiza nuestros anteriores y proximos eventos!</span>
+              <h2 className="text-white text-center font-title">Próximos Eventos</h2>
+              <span className="text-white text-center font-span">Entra en nuestra sección de <Link to='/eventos' className='font-span text-white fs-5'>Eventos</Link> y visualiza nuestros anteriores y próximos eventos!</span>
           </div>
         </div>
 
@@ -26,7 +26,7 @@ const MediaCarrousel = () => {
           <div className="carrouselMedia px-2">
               <h2 className="text-white text-center font-title">Conoce nuestros inicios</h2>
               <span className="text-white text-center font-family fs-5">Descúbrenos como nos formamos hasta el dia de hoy y toda nuestra historia</span>
-              <Link to='/nosotros' className='font-span text-white fs-5'>Aqui</Link>
+              <Link to='/nosotros' className='font-span text-white fs-5'>Aquí</Link>
           </div>
         </div>
 
