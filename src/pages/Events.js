@@ -14,6 +14,9 @@ import estadio3 from '../assets/estadio-3.jpeg';
 import viaje1 from '../assets/san-clemente-2.jpeg';
 import viaje2 from "../assets/san-clemente-4.jpeg";
 import viaje3 from '../assets/san-clemente-3.jpeg';
+import legis1 from '../assets/legis-1.jpg';
+import legis2 from "../assets/legis-2.jpg";
+import legis3 from '../assets/legis-3.jpg';
 import Navbar from '../components/Navbar.js';
 
 
@@ -35,7 +38,7 @@ const events = [
     text:"En noviembre de 2016, la Legislatura de la Ciudad Autónoma de Buenos Aires nos reconoce a la Asociación Civil Unidos por la Alegría como una entidad sin fines de lucro que contribuye al desarrollo e inclusion laboral y/o social de la las personas con discapacidad intelectual  ",
     date: "11 de noviembre 2016",
     id:"legis",
-    images:[]
+    images:[legis1, legis2, legis3]
   },
   {
     title:"Visita merendero Colibríes",
